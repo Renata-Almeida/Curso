@@ -820,7 +820,7 @@ main{
         background-size: 100%;
     }
     .fiv-sec{
-        height: 900px;
+        height: 100%;
     }
     .fiv-sec h1{
         font-size: 25px;
@@ -856,7 +856,7 @@ main{
         background-size: 100%;
     }
     .fiv-sec{
-        height: 900px;
+        height: 100%;
     }
     .fiv-sec h1{
         font-size: 40px;
@@ -888,7 +888,7 @@ main{
         background-size: 100%;
     }
     .fiv-sec{
-        height: 700px
+        height: 100%;
     }
     .fiv-sec h1{
         font-size: 40px;
@@ -987,8 +987,7 @@ main{
 @media screen and (min-width: 371px) and (max-width: 520px){
     .sixty-sec{
         margin-top: 50px;
-        height: 600px;
-        height: 600px;
+        height: 700px;
         background-size: 1200px 100%;
     }
     .sixty-sec h1{
