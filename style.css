@@ -1226,6 +1226,25 @@ main{
     margin-top: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -1px 10px rgba(0, 0, 0, 0.4);
 }
+.card-sec-pag a{
+    padding-bottom: 30px;
+    padding-right: 120px;
+    margin-left: 22%;
+    position: relative;
+}
+.card-sec-pag a::before{
+    content: 'oportunidade unica!';
+    background-color: rgba(255, 0, 0, 0.767);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
 .card-sec-pag button:hover{
     background: #000;
     color: #fff;
@@ -1260,6 +1279,25 @@ main{
         width: 70px;
         height: 80px;
     }
+    .card-sec-pag a{
+        padding-bottom: 40px;
+        padding-right: 55px;
+        margin-left: 22%;
+        position: relative;
+    }
+    .card-sec-pag a::before{
+        content: 'oportunidade unica!';
+        background-color: rgba(255, 0, 0, 0.767);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 120px;
+        padding: 5px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
 }
 @media screen and (min-width: 371px) and (max-width: 520px){
     .pagamento{
@@ -1274,6 +1312,25 @@ main{
     .card-sec-pag img{
         width: 70px;
         height: 80px;
+    }
+    .card-sec-pag a{
+        padding-bottom: 40px;
+        padding-right: 55px;
+        margin-left: 22%;
+        position: relative;
+    }
+    .card-sec-pag a::before{
+        content: 'oportunidade unica!';
+        background-color: rgba(255, 0, 0, 0.767);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 120px;
+        padding: 5px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 15px;
+        text-transform: uppercase;
     }
 }
 @media screen and (min-width: 521px) and (max-width: 760px){
